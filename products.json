@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Rose",
+        "price":  300,
+        "image": "images/product3.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Lily",
+        "price": 200,
+        "image": "images/product5.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Carnations",
+        "price": 500,
+        "image": "images/product3.jpg"
+    },
+    {
+        "id": 1,
+        "name": "Peony",
+        "price": 250,
+        "image": "images/product4.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Tulip",
+        "price": 400,
+        "image": "images/product5.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Bouquet Charm",
+        "price": 250,
+        "image": "images/product4.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Dahlia",
+        "price": 400,
+        "image": "images/product5.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Iris",
+        "price": 500,
+        "image": "images/product3.jpg"
+    }
+]
