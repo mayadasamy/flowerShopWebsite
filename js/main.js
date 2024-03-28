@@ -149,17 +149,20 @@ let changeQuantity = (product_id, type) => {
   addCartToMemory();
 };
 
-const initApp = () => {
-  fetch("./products.json")
-    .then((Response) => Response.json())
+
+async function initApp() {
+  const data = await fetch("./products.json")
+    .then((el) => el.json())
     .then((data) => {
       listProducts = data;
-      addDataToHTML();
-
-      if (localStorage.getItem("carts")) {
-        carts = JSON.parse(localStorage.getItem("carts"));
-        addCartToHTML();
-      }
     });
-};
+
+  addDataToHTML();
+
+  if (localStorage.getItem("carts")) {
+    carts = JSON.parse(localStorage.getItem("carts"));
+    addCartToHTML();
+  }
+}
+
 initApp();
