@@ -335,7 +335,7 @@ section {
     box-shadow: 0 5px 25px rgba(1, 1, 1, 0.5);
   }
   .menu-btn {
-    background: url(images/menubtn.png) no-repeat;
+    background: url(images/menu...png) no-repeat;
     background-size: 30px;
     background-position: center;
     width: 40px;
@@ -916,9 +916,6 @@ footer {
   border-radius: 4px;
   border: none;
   transition: 0.5s ease;
- 
-  
-  
 }
 .buttonCheckout:hover {
   background-color: #ff3ea5;
@@ -926,10 +923,7 @@ footer {
   cursor: pointer;
 }
 
-
-.returnCart a{
-  
- 
+.returnCart a {
   text-decoration: none;
   color: #ff3ea5;
   font-weight: 600;
@@ -944,14 +938,8 @@ footer {
   border: none;
   transition: 0.5s ease;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.199);
-  
-
-
-
-
 }
 .returnCart h1 {
-  
   padding: 20px 0;
 }
 
